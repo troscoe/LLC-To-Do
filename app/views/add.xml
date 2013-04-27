@@ -1,0 +1,15 @@
+<Alloy>
+	<Window class="container" title="New To Do" modal="true" onOpen="focusTextField">
+		<LeftNavButton>
+			<Button onClick="closeWindow">Cancel</Button>
+		</LeftNavButton>
+		<RightNavButton>
+			<Button onClick="addItem">Add</Button>
+		</RightNavButton>
+		<TableView>
+			<TableViewRow>
+				<TextField id="todoText" hintText="Type your to do" onReturn="closeKeyboard" />
+			</TableViewRow>
+		</TableView>
+	</Window>
+</Alloy>

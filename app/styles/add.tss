@@ -1,0 +1,14 @@
+".container": {
+	backgroundColor: "white"
+}
+"TableView": {
+	style: Titanium.UI.iPhone.TableViewStyle.GROUPED
+}
+"TableViewRow": {
+	height : 44
+}
+"TextField": {
+	height : Ti.UI.SIZE,
+	left: 10,
+	right: 10
+}

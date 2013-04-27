@@ -1,0 +1,23 @@
+<Alloy>
+	<Window class="container">
+		<NavigationGroup>
+			<Window id="win" title="List">
+				<LeftNavButton>
+					<Button systemButton="Ti.UI.iPhone.SystemButton.ADD" onClick="addToDo"></Button>
+				</LeftNavButton>
+				<TableView id="todoTable" dataCollection="todo" dataFilter="whereFunction" dataTransform="transformFunction">
+        			<Require src="row"/>
+        		</TableView>
+				<Toolbar>
+					<TabbedBar onClick="showTasks" id="tabbedbar">
+						<Labels>
+							<Label>All</Label>
+							<Label>Active</Label>
+							<Label>Done</Label>
+						</Labels>
+					</TabbedBar>
+				</Toolbar>
+			</Window>
+		</NavigationGroup>
+	</Window>
+</Alloy>
