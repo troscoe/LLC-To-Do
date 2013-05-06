@@ -8,8 +8,17 @@ or by email:
 
 talk at thenewkid dot ca
 
-Workshop slides:
-Coming soon.
-
 How to import and run the finished app:
-Instructions coming soon.
+1. Click the zip icon above
+2. Unzip LLC-To-Do-master.zip
+3. Open Titanium Studio
+4. File --> Import
+5. Select Titanium --> Existing Mobile Project
+6. Click Browse and navigate to the extracted folder
+7. Click Finish
+
+Workshop slides:
+http://thenewkid.ca/llc/llc-intro-to-iphone-app-dev.pdf
+
+Step by step:
+Coming soon (hint: click "watch" above to receive notifications)
